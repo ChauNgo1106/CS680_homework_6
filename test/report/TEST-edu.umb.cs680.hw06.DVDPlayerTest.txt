@@ -1,0 +1,50 @@
+Testcase: edu.umb.cs680.hw06.DVDPlayerTest
+Test: check_the_singleton_of_drawer_close_playing_class() took 25 milli sec(s)
+Test: check_the_singleton_of_drawer_close_not_playing_class() took 0 milli sec(s)
+Test: checking_player1_play_then_play_then_open_then_stop_and_open_close_button_pushed() took 6 milli sec(s)
+Test: checking_the_change_state_DrawerClosedNotPlaying_to_DrawerOpen() took 0 milli sec(s)
+Test: check_the_singleton_of_DVDPlayer_class() took 0 milli sec(s)
+Test: check_the_singleton_of_drawer_open_class() took 0 milli sec(s)
+Test: checking_player1_open_close_then_play_and_stop_button_pushed() took 0 milli sec(s)
+Test: checking_player1_stop_then_play_and_open_close_button_pushed() took 1 milli sec(s)
+Tests run: 8, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 48 milli sec(s)
+------------- Standard Output ---------------
+Drawer is closed and CD is not playing
+Press: Play
+Drawer is closed and CD is playing
+Press play button and nothing happen
+Drawer is closed and CD is playing
+Press: Open
+Drawer is open and stop playing CD
+Stop
+Drawer is open
+Press stop button and nothing happen
+Drawer is open
+Press: Close
+Drawer is close and CD is not playing
+Drawer is open
+Press: Play
+Drawer is Close
+CD is: Play
+Drawer is open
+Press: Play
+Drawer is Close
+CD is: Play
+Drawer is closed and CD is not playing
+Press: Open
+Drawer is open
+Press: Play
+Drawer is Close
+CD is: Play
+Drawer is closed and CD is playing!
+Press: Stop
+CD will stop playing and drawer is: Open
+Drawer is closed and CD is not playing
+Press stop button and nothing happen
+Drawer is closed and CD is not playing
+Press: Play
+Drawer is closed and CD is playing
+Press: Open
+Drawer is open and stop playing CD
+Stop
+------------- ---------------- ---------------
